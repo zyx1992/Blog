@@ -1,1 +1,56 @@
+一、第一种情况
+
+#复现过程
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+	</head>
+	<body>
+		<div class="content">
+			<div>AAAA</div>
+		</div>
+	</body>
+</html>
+<style>
+	html,body { height: 100%; }
+	.content { height: 100%; 	
+</style>
+
+#出现结果
+会出现纵向滚动条，content的内容超出html内容的范围
+
+#原因
+body相对于html在初始实会有一个初始距离
+
+#解决方法
+html,body { height:100%; margin:0; padding:0; }
+
+二、第二种情况
+
+#复现过程
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+		<title>这是我的test</title>
+	</head>
+	<body>
+		<div class="nav">
+			<div>Nav</div>
+		</div>
+		<div class="content">
+			<div>Content</div>
+		</div>
+</html>
+<style>
+	html,body { height: 100%;padding: 0;margin: 0; }
+	.nav { height: 60px; }
+	.content { height: 100%; }
+</style>
+
+#
+
 
