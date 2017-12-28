@@ -1,0 +1,1 @@
+父元素的盒子不设置padding或border，子元素会默认自己的margin做为整体的margin:http://www.hicss.net/do-not-tell-me-you-understand-margin/
