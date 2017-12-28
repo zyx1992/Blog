@@ -39,3 +39,9 @@ web即时通信：https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=26515533
 重绘、重排：https://www.google.com.hk/search?safe=strict&biw=2560&bih=1334&ei=Fw1CWpH9HeW0ggfXnIn4CQ&q=%E9%87%8D%E7%BB%98+%E9%87%8D%E6%8E%92&oq=%E9%87%8D%E7%BB%98+%E9%87%8D%E6%8E%92&gs_l=psy-ab.3..0i12k1.1154.1154.0.1847.1.1.0.0.0.0.315.315.3-1.1.0....0...1c.1.64.psy-ab..0.1.315....0.U0ifV1I6YUw
 区别：jquery $(document).ready() 与window.onload的区别jquery $(document).ready() 的实现
 css博客：https://github.com/chokcoco/iCSS/issues
+css:https://fed.renren.com/2017/02/09/avoid-jank/
+    https://fed.renren.com/2017/01/30/chrome-build-dom/
+    https://fed.renren.com/2017/02/22/chrome-css/
+    https://fed.renren.com/2017/02/26/chrome-layout/
+    https://fed.renren.com/2017/02/05/browser-event/
+    https://fed.renren.com/page/5/
