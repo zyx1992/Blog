@@ -1,1 +1,7 @@
 父元素的盒子不设置padding或border，子元素会默认自己的margin做为整体的margin:http://www.hicss.net/do-not-tell-me-you-understand-margin/
+margin 这个问题记得，自己总结一下。
+
+1. 什么叫 margin重叠 ？
+2. 什么情况下会产生margin 重叠 ？
+3. margin 重叠有什么用吗？
+4. 怎么解决 margin 重叠 ？
